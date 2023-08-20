@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Let's Explore Together!!!</title>
+  </head>
+  <body>
+    <header class="top">
+      <div><img src="./rdj-5k-p5.jpg" alt="nonet" />
+      <h1>Vivek Tarnallya</h1>
+      <img onclick="addedmenu()" class="menu" src="./icons8-menu-64(2).png" alt="" /></div>
+      <div class="menus">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="https://github.com/vivekbeast">Git Projects</a></li>
+    <li><a href="https://instagram.com/vivektarnallya?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Contact</a></li>
+  </ul>
+</div>
+
+    </header>
+    <div class="menus"></div>
+    <div class="card">
+      <h1 class="title">Wheather App</h1>
+      <div class="search">
+        <input type="text" placeholder="Enter City Name..." />
+        <button><img src="./images/search.png" alt="" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <img class="weather-icon" src="./images/rain.png" alt="" />
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./images/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/wind.png" alt="" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="container">
+        <div class="header">
+          <h2 class="title">Quote Generator</h2>
+        </div>
+        <div class="main-content">
+          <div class="text-area">
+            <span class="quote">
+              “An equation for me has no meaning, unless it expresses a thought
+              of God.”
+            </span>
+          </div>
+          <div class="person">- Srinivasa Ramanujan</div>
+          <div class="button-area">
+            <button class="nextquote">Next Quote</button>
+          </div>
+        </div>
+      </div>
+      <div class="seconddiv">
+        <form id="quoteForm">
+          <h2>YOU CAN ALSO ENTER YOUR QUOTE</h2>
+          <input
+            type="text"
+            id="quoteInput"
+            placeholder="Enter your quote here"
+          />
+          <input type="text" id="nameInput" placeholder="Enter your Name" />
+          <nav id="enterdvalues">Submit</nav>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./javascript.js"></script>
+</html>
